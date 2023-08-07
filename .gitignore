@@ -151,6 +151,37 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment files
+venv/
+env/
+
+# Ignore Python cache files
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.swp
+
+# Ignore sensitive data and credentials
+credentials.json
+token.json
+
+# Ignore any other sensitive data or API keys
+# Replace `file_or_directory_to_ignore` with the names of other files or directories to ignore
+file_or_directory_to_ignore
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
