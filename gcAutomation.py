@@ -84,7 +84,7 @@ def commitHours(creds):
         # 10 single events on the user's calendar, ordered by start time.
         print('\nGetting the upcoming 10 events \n')
         events_result = service.events().list(
-            calendarId='c1fab50000c1e9859e3446884be2929546b0f067687c11ebe11436a3495ae471@group.calendar.google.com',
+            calendarId='your calendar id here',
             timeMin=timeStart, 
             timeMax=timeEnd,
             maxResults=10, 
@@ -151,7 +151,7 @@ def addEvent(creds, duration, description):
     
     # sends a request to the Google Calendar API to insert the event into the user's calendar.
     service = build('calendar', 'v3', credentials=creds)
-    event = service.events().insert(calendarId='c1fab50000c1e9859e3446884be2929546b0f067687c11ebe11436a3495ae471@group.calendar.google.com', 
+    event = service.events().insert(calendarId='your calendar id here', 
                                     body=event).execute()
     
     # Shorten the URL using pyshorteners
