@@ -21,7 +21,7 @@ This project is a Python script that interacts with the Google Calendar API to c
 2. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/Google-Calendar-Automation.git
+git clone https://github.com/abhie7/Google-Calendar-Automation.git
 ```
 
 ## Usage
